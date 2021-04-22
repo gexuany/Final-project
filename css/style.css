@@ -873,7 +873,7 @@ body {
         font-family  : Open Sans;
         font-weight  : 700;
         margin-bottom: 20px;
-        background-color: pink;
+        /* background-color: pink; */
 
     }
 
@@ -1074,6 +1074,8 @@ body {
     /* our team section start */
     .team {
         margin-top: 32px;
+        /* width: 975px;
+        margin: 0 auto; */
     }
 
     .team h2 {
@@ -1081,42 +1083,66 @@ body {
         font-family  : Open Sans;
         font-weight  : 700;
         margin-bottom: 16px;
+        margin-left: 114px;
     }
 
     .grid3 {
         display                 : grid;
-        height                  : 100%;
+        
+        margin-left: 114px;
+        margin-right: 114px;
         grid-template-columns   : repeat(2, 1fr);
         grid-template-rows      : repeat(2, 1fr);
-        /* background-color     : darkblue; */
+        
     }
 
     .grid3 .person1 {
-
+        width: 487px;
         grid-column     : 1 / 2;
         grid-row        : 1;
         /* background-color: cornflowerblue; */
     }
+    .grid3 .person1 img{
+        width: 487px;
+        height: 327px;
+    }
+
+    /* .grid3 .person1 img{
+        width: 487px;
+        height: 328px;
+    } */
 
     .grid3 .person1intro {
         grid-column     : 2 / 3;
         grid-row        : 1;
         background-color: #ffe6a3;
+        width: 485px;
+        height: 327px;
         padding-left    : 14px;
     }
 
     .grid3 .person2 {
+        width: 485px;
+        height: 327px;
         height             : 100%;
         grid-column        : 2 / 3;
         grid-row           : 2;
         /* background-color: blueviolet; */
     }
+    .grid3 .person2 img{
+        width: 487px;
+        height: 327px;
+    }
+
+
 
     .grid3 .person2intro {
         grid-column     : 1 / 2;
         grid-row        : 2;
         background-color: #ffe6a3;
         padding-left    : 14px;
+        width: 485px;
+        height: 328px;
     }
 
     .grid3 h3 {
@@ -1147,9 +1173,13 @@ body {
     /* our team section end */
 
     /* contact section start */
-
+    .contactus h2{
+        margin-left: 114px;
+    }
     .grid4 {
         display              : grid;
+        width: 975px;
+        margin: 0 auto;
         /* grid-template-columns: repeat(2, 1fr);  */
         grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
         grid-column-gap      : 15px;
